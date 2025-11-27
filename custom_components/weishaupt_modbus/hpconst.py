@@ -547,12 +547,9 @@ HZ_KONFIGURATION: list[StatusItem] = [
 
 HZ_ANFORDERUNG: list[StatusItem] = [
     StatusItem(number=0, text="aus", translation_key="hz_anforderung_aus"),
-    StatusItem(
-        number=1,
-        text="witterungsgeführt",
-        translation_key="hz_anforderung_witterungsgefuehrt",
-    ),
+    StatusItem(number=1, text="witterungsgeführt", translation_key="hz_anforderung_witterungsgefuehrt"),
     StatusItem(number=2, text="konstant", translation_key="hz_anforderung_konstant"),
+    StatusItem(number=3, text="konstant", translation_key="hz_anforderung_konstant"),    # Aggiunto possibile valore 3
 ]
 
 HZ_BETRIEBSART: list[StatusItem] = [
@@ -1461,4 +1458,5 @@ DEVICELISTS: list = [
 ]
 
 # fmt: on
+
 
