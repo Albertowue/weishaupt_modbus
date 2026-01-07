@@ -657,12 +657,12 @@
         "name": "{prefix}Output H1.5"
       },
       "aussentemp": {
-        "name": "{prefix}Outside temperature"
+        "name": "{prefix}Temperatura esterna"
       },
       "betriebsanzeige": {
         "name": "{prefix}Operation indicator",
         "state": {
-          "system_operationmode_undefined": "undefined",
+          "system_operationmode_undefined": "non definito",
           "system_operationmode_relaistest": "Relais test",
           "system_operationmode_sgtariff": "SG tariff",
           "system_operationmode_sgmax": "SG maximum",
@@ -674,16 +674,16 @@
           "system_operationmode_frosprotection": "Frost protection",
           "system_operationmode_heating": "Heating mode",
           "system_operationmode_heating_sgr": "Heating mode SGR",
-          "system_operationmode_emergencystop": "Emergency stop",
-          "system_operationmode_hotwater": "Hot water mode",
-          "system_operationmode_hotwater_sgr": "Hot water mode SGR",
-          "system_operationmode_legionellaprotection": "Legionella protection",
+          "system_operationmode_emergencystop": "Arresto di emergenza",
+          "system_operationmode_hotwater": "Esercizio ACS",
+          "system_operationmode_hotwater_sgr": "SG Ready ACS",
+          "system_operationmode_legionellaprotection": "Antilegionella",
           "system_operationmode_switchheatingcooling": "Switchover HZ KU",
-          "system_operationmode_cooling": "Cooling mode",
+          "system_operationmode_cooling": "Esercizio raffrescamento",
           "system_operationmode_passivecooling": "Passive cooling",
           "system_operationmode_summer": "Summer mode",
           "system_operationmode_swimmingpool": "Swimming pool mode",
-          "system_operationmode_vacation": "Vacation",
+          "system_operationmode_vacation": "Ferie",
           "system_operationmode_screedprogram": "Screed program",
           "system_operationmode_locked": "Locked",
           "system_operationmode_diagnosis": "Diagnosis",
@@ -694,13 +694,13 @@
           "system_operationmode_lockedcv": "HK block",
           "system_operationmode_lowering": "Lowering mode",
           "system_operationmode_regenerativeflow": "Regenerative flow",
-          "system_operationmode_manual": "Manual mode",
-          "system_operationmode_oilrecirculation": "Oil recirculation",
-          "system_operationmode_manualheating": "Manual heating",
-          "system_operationmode_manualcooling": "Manual cooling",
-          "system_operationmode_manualdefrost": "Manual defrost",
-          "system_operationmode_defrost": "Defrost",
-          "system_operationmode_manual2ndheatsource": "2nd heat source"
+          "system_operationmode_manual": "Esercizio manuale",
+          "system_operationmode_oilrecirculation": "Ricircolo dell'olio",
+          "system_operationmode_manualheating": "Riscaldamento manuale",
+          "system_operationmode_manualcooling": "Raffrescamento manuale",
+          "system_operationmode_manualdefrost": "Sbrinamento manuale",
+          "system_operationmode_defrost": "Sbrinamento",
+          "system_operationmode_manual2ndheatsource": "2° fonte di calore"
         }
       },
       "betriebss_e1": {
@@ -724,19 +724,19 @@
         }
       },
       "el_energie_yesterday": {
-        "name": "{prefix}Electr. energy yesterday"
+        "name": "{prefix}Energia elettrica ieri"
       },
       "el_energie_heute": {
-        "name": "{prefix}Electr. energy today"
+        "name": "{prefix}Energia elettrica oggi"
       },
       "el_energie_jahr": {
-        "name": "{prefix}Electr. energy year"
+        "name": "{prefix}Energia elettrica anno"
       },
       "el_energie_monat": {
-        "name": "{prefix}Electr. energy month"
+        "name": "{prefix}Energia elettrica mese"
       },
       "fehler": {
-        "name": "{prefix}Fehler",
+        "name": "{prefix}Errore",
         "state": {
           "sys_fehler_1": "Refrigerant sensor expansion valve inlet (T1)",
           "sys_fehler_10": "High pressure sensor (P2)",
@@ -877,8 +877,8 @@
       "fehlerfrei": {
         "name": "{prefix}No error",
         "state": {
-          "fehler_aktiv": "Error active",
-          "stoerungsfreier_betrieb": "Fault-free operation"
+          "fehler_aktiv": "Errore presente",
+          "stoerungsfreier_betrieb": "Funzionamento senza guasti"
         }
       },
       "ges_energie_2_yesterday": {
@@ -1601,10 +1601,10 @@
         }
       },
       "ww_soll_temp": {
-        "name": "{prefix}Hot water setpoint temperature"
+        "name": "{prefix}Temperatura setpoint ACS"
       },
       "ww_temp": {
-        "name": "{prefix}Hot water temperature"
+        "name": "{prefix}Temperatura ACS"
       }
     }
   },
