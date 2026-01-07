@@ -4,7 +4,7 @@
       "already_configured": "Account già configurato"
     },
     "error": {
-      "cannot_connect": "Connessione fallita,
+      "cannot_connect": "Connessione fallita",
       "invalid_auth": "Autenticazione invalida",
       "unknown": "Errore imprevisto"
     },
@@ -22,7 +22,7 @@
           "Name-Topic-Prefix": "Name Topic Prefix",
           "Port": "Porta",
           "Prefix": "Prefix",
-          "enable-webif": "abilitare webif sperimetale?",
+          "enable-webif": "abilitare webif sperimentale?",
           "Web-IF-Token": "web-IF token di 4 lettere, vedi readme"
         }
       }
@@ -164,51 +164,51 @@
     },
     "select": {
       "hz_operationmode": {
-        "name": "{prefix}Operation mode",
+        "name": "{prefix}Tipo esercizio",
         "state": {
-          "hz_operationmode_lowering": "Lowering mode",
-          "hz_operationmode_automatic": "Automatic",
-          "hz_operationmode_normal": "Normal",
+          "hz_operationmode_lowering": "Esercizio ridotto",
+          "hz_operationmode_automatic": "Automatico",
+          "hz_operationmode_normal": "Normale",
           "hz_operationmode_standby": "Standby",
           "hz_operationmode_comfort": "Comfort"
         }
       },
       "hz_operationmode2": {
-        "name": "{prefix}Operation mode2",
+        "name": "{prefix}Tipo esercizio2",
         "state": {
-          "hz_operationmode_lowering": "Lowering mode",
-          "hz_operationmode_automatic": "Automatic",
-          "hz_operationmode_normal": "Normal",
+          "hz_operationmode_lowering": "Esercizio ridotto",
+          "hz_operationmode_automatic": "Automatico",
+          "hz_operationmode_normal": "Normale",
           "hz_operationmode_standby": "Standby",
           "hz_operationmode_comfort": "Comfort"
         }
       },
       "hz_operationmode3": {
-        "name": "{prefix}Operation mode3",
+        "name": "{prefix}Tipo esercizio3",
         "state": {
-          "hz_operationmode_lowering": "Lowering mode",
-          "hz_operationmode_automatic": "Automatic",
-          "hz_operationmode_normal": "Normal",
+          "hz_operationmode_lowering": "Esercizio ridotto",
+          "hz_operationmode_automatic": "Automatico",
+          "hz_operationmode_normal": "Normale",
           "hz_operationmode_standby": "Standby",
           "hz_operationmode_comfort": "Comfort"
         }
       },
       "hz_operationmode4": {
-        "name": "{prefix}Operation mode4",
+        "name": "{prefix}Tipo esercizio4",
         "state": {
-          "hz_operationmode_lowering": "Lowering mode",
-          "hz_operationmode_automatic": "Automatic",
-          "hz_operationmode_normal": "Normal",
+          "hz_operationmode_lowering": "Esercizio ridotto",
+          "hz_operationmode_automatic": "Automatico",
+          "hz_operationmode_normal": "Normale",
           "hz_operationmode_standby": "Standby",
           "hz_operationmode_comfort": "Comfort"
         }
       },
       "hz_operationmode5": {
-        "name": "{prefix}Operation mode5",
+        "name": "{prefix}Tipo esercizio5",
         "state": {
-          "hz_operationmode_lowering": "Lowering mode",
-          "hz_operationmode_automatic": "Automatic",
-          "hz_operationmode_normal": "Normal",
+          "hz_operationmode_lowering": "Esercizio ridotto",
+          "hz_operationmode_automatic": "Automatico",
+          "hz_operationmode_normal": "Normale",
           "hz_operationmode_standby": "Standby",
           "hz_operationmode_comfort": "Comfort"
         }
@@ -484,13 +484,13 @@
         }
       },
       "sys_operationmode": {
-        "name": "{prefix}System operation mode",
+        "name": "{prefix}Tipo esercizio sistema",
         "state": {
-          "sys_operationmode_2ndheatsource": "2nd heat source",
-          "sys_operationmode_automatic": "Automatic",
-          "sys_operationmode_heating": "Heating",
-          "sys_operationmode_cooling": "Cooling",
-          "sys_operationmode_summer": "Summer",
+          "sys_operationmode_2ndheatsource": "2° generatore",
+          "sys_operationmode_automatic": "Automatico",
+          "sys_operationmode_heating": "Riscaldamento",
+          "sys_operationmode_cooling": "Raffrescamento",
+          "sys_operationmode_summer": "Estate",
           "sys_operationmode_standby": "Standby"
         }
       },
@@ -498,7 +498,7 @@
         "name": "{prefix}Set point PV"
       },
       "ww_push": {
-        "name": "{prefix}Hot water Push",
+        "name": "{prefix}ACS forzato",
         "state": {
           "ww_push_10": "10 min",
           "ww_push_100": "100 min",
@@ -553,16 +553,16 @@
     },
     "sensor": {
       "abtau_energie_gester": {
-        "name": "{prefix}Defrost energy yesterday"
+        "name": "{prefix}Energia di sbrinamento ieri"
       },
       "abtau_energie_heute": {
-        "name": "{prefix}Defrost energy today"
+        "name": "{prefix}Energia di sbrinamento oggi"
       },
       "abtau_energie_jahr": {
-        "name": "{prefix}Defrost energy year"
+        "name": "{prefix}Energia di sbrinamento anno"
       },
       "abtau_energie_monat": {
-        "name": "{prefix}Defrost energy month"
+        "name": "{prefix}Energia di sbrinamento mese"
       },
       "adr31106": {
         "name": "{prefix}Adr. 31106"
@@ -583,62 +583,62 @@
         "name": "{prefix}Adr. 36801"
       },
       "adr44102": {
-        "name": "{prefix}Configuration EP1",
+        "name": "{prefix}Configurazione EP1",
         "state": {
-          "w2_konf_0": "enabled",
+          "w2_konf_0": "abilitata",
           "w2_konf_1": "OFF"
         }
       },
       "adr44103": {
-        "name": "{prefix}Configuration EP2",
+        "name": "{prefix}Configurazione EP2",
         "state": {
-          "w2_konf_0": "enabled",
+          "w2_konf_0": "abilitata",
           "w2_konf_1": "OFF"
         }
       },
       "anf_typ": {
-        "name": "{prefix}Request type",
+        "name": "{prefix}Richiesta",
         "state": {
           "hz_anforderung_aus": "off",
-          "hz_anforderung_konstant": "constant",
-          "hz_anforderung_witterungsgefuehrt": "weather-guided",
-          "hz_anforderung_raumregelung": "Room control"
+          "hz_anforderung_konstant": "Valore fisso",
+          "hz_anforderung_witterungsgefuehrt": "Regolazione climatica",
+          "hz_anforderung_raumregelung": "Regolazione ambiente"
         }
       },
       "anf_typ2": {
-        "name": "{prefix}Request type2",
+        "name": "{prefix}Richiesta2",
         "state": {
           "hz_anforderung_aus": "off",
-          "hz_anforderung_konstant": "constrant",
-          "hz_anforderung_witterungsgefuehrt": "weather-guided",
-          "hz_anforderung_raumregelung": "Room control"
+          "hz_anforderung_konstant": "Valore fisso",
+          "hz_anforderung_witterungsgefuehrt": "Regolazione climatica",
+          "hz_anforderung_raumregelung": "Regolazione ambiente"
         }
       },
       "anf_typ3": {
-        "name": "{prefix}Request type3",
+        "name": "{prefix}Richiesta3",
         "state": {
           "hz_anforderung_aus": "off",
-          "hz_anforderung_konstant": "constrant",
-          "hz_anforderung_witterungsgefuehrt": "weather-guided",
-          "hz_anforderung_raumregelung": "Room control"
+          "hz_anforderung_konstant": "Valore fisso",
+          "hz_anforderung_witterungsgefuehrt": "Regolazione climatica",
+          "hz_anforderung_raumregelung": "Regolazione ambiente"
         }
       },
       "anf_typ4": {
-        "name": "{prefix}Request type4",
+        "name": "{prefix}Richiesta4",
         "state": {
           "hz_anforderung_aus": "off",
-          "hz_anforderung_konstant": "constrant",
-          "hz_anforderung_witterungsgefuehrt": "weather-guided",
-          "hz_anforderung_raumregelung": "Room control"
+          "hz_anforderung_konstant": "Valore fisso",
+          "hz_anforderung_witterungsgefuehrt": "Regolazione climatica",
+          "hz_anforderung_raumregelung": "Regolazione ambiente"
         }
       },
       "anf_typ5": {
-        "name": "{prefix}Request type5",
+        "name": "{prefix}Richiesta5",
         "state": {
           "hz_anforderung_aus": "off",
-          "hz_anforderung_konstant": "constrant",
-          "hz_anforderung_witterungsgefuehrt": "weather-guided",
-          "hz_anforderung_raumregelung": "Room control"
+          "hz_anforderung_konstant": "Valore fisso",
+          "hz_anforderung_witterungsgefuehrt": "Regolazione climatica",
+          "hz_anforderung_raumregelung": "Regolazione ambiente"
         }
       },
       "anforderung_vl_regenerativ": {
